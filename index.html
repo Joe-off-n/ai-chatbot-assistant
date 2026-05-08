@@ -7,14 +7,18 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="chat-container">
-    <h1>AI Chatbot Assistant</h1>
-    <div id="chat-box" class="chat-box">
-      <div class="bot-message">Hello! I am your AI chatbot assistant.</div>
-    </div>
-    <div class="input-area">
-      <input type="text" id="user-input" placeholder="Type your message..." />
-      <button onclick="sendMessage()">Send</button>
+  <div class="container">
+    <div class="chat-card">
+      <h1>AI Chatbot Assistant</h1>
+
+      <div id="chatBox" class="chat-box">
+        <div class="message bot">Hello! I am your AI chatbot assistant.</div>
+      </div>
+
+      <div class="input-area">
+        <input type="text" id="userInput" placeholder="Type a message..." />
+        <button id="sendBtn">Send</button>
+      </div>
     </div>
   </div>
 
